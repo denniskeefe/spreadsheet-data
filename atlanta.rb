@@ -1,0 +1,12 @@
+tag_fee = 20.00
+
+license_fee = 20.00
+
+print "Tag or License fee?"
+item = gets.chomp 
+
+if item == "Tag"
+	puts "The tag fee is #{tag_fee}"
+else
+	puts "The license fee is #{license_fee}"
+end
